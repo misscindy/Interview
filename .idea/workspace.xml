@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cdc53ff-5f64-4232-9e76-1f461e43dd86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LC_132_Palindrome_Partitioning_Minimum_Cut.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LC_39_Combination_Sum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LC_132_Palindrome_Partitioning_Minimum_Cut.py" afterPath="$PROJECT_DIR$/LC_132_Palindrome_Partitioning_Minimum_Cut.py" />
     </list>
     <ignored path="Interview.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +16,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Interview$LC_39_Combination_Sum.coverage" NAME="LC_39_Combination_Sum Coverage Results" MODIFIED="1428945499244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Interview$LC_39_Combination_Sum.coverage" NAME="LC_39_Combination_Sum Coverage Results" MODIFIED="1428960925995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Interview$LC_132_Palindrome_Partitioning_Minimum_Cut.coverage" NAME="LC_132_Palindrome_Partitioning_Minimum_Cut Coverage Results" MODIFIED="1428961622604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="LC_132_Palindrome_Partitioning_Minimum_Cut.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LC_132_Palindrome_Partitioning_Minimum_Cut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.47818792" vertical-offset="0" max-vertical-offset="765">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,6 +60,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LC_39_Combination_Sum.py" />
+        <option value="$PROJECT_DIR$/LC_132_Palindrome_Partitioning_Minimum_Cut.py" />
       </list>
     </option>
   </component>
@@ -124,7 +125,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Python.LC_39_Combination_Sum">
+  <component name="RunManager" selected="Python.LC_132_Palindrome_Partitioning_Minimum_Cut">
     <configuration default="false" name="LC_39_Combination_Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,6 +140,26 @@
       <module name="Interview" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LC_39_Combination_Sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LC_132_Palindrome_Partitioning_Minimum_Cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Interview" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LC_132_Palindrome_Partitioning_Minimum_Cut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -327,12 +348,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.LC_39_Combination_Sum" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LC_132_Palindrome_Partitioning_Minimum_Cut" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.LC_39_Combination_Sum" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.LC_132_Palindrome_Partitioning_Minimum_Cut" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LC_39_Combination_Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -406,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LC_132_Palindrome_Partitioning_Minimum_Cut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="596">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.47818792" vertical-offset="0" max-vertical-offset="765">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
