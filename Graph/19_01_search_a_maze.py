@@ -55,8 +55,8 @@ def search(matrix, start, end):
 
 
 
-
 if __name__ == "__main__":
+
     matrix_1 = [[1, 1, 1, 1],
                 [0, 1, 1, 0],
                 [1, 0, 1, 0],
