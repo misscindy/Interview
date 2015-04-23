@@ -59,10 +59,6 @@ class Solution:
                 # print "================================"
         return result
 
-
-
-
-
 if __name__ == "__main__":
     a = Solution()
     test_cases = [
