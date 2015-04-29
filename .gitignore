@@ -1,3 +1,5 @@
+./idea
+
 # Exclude the .htaccess file
 .htaccess
 
