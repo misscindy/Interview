@@ -304,55 +304,67 @@ class BinaryTreeNode(object):
             runner = runner.parent
 
 
+def right_side(root, res):
+    if not root:
+        return
+    res.append(root.val)
+    if root.right:
+        right_side(root.right, res)
+    else:
+        right_side(root.left, res)
 
 
 
 
 if __name__ == "__main__":
     tree = createBinarySearchTreeNotBalanced([1, 2, 3, 4,5, 4, 4, 1, 2])
-    printBinarySearchTree(tree)
-    print is_k_balanced(tree, 2)
+    # printBinarySearchTree(tree)
+    # print is_k_balanced(tree, 2)
     values = [4, 5, 5, 7, 2, 1, 3]
     bst = createBinarySearchTree(values)
-    print bst.left.left.val, bst.left.right.val
-    print "LCA: ", lca(bst, bst.left.left, bst.left.right)[0].val
-    print bst.left.val, bst.right.val
-    print "LCA: ", lca(bst, bst.right, bst.left)[0].val
-    print '=== Binary Tree ==='
-    values = [0, 1, 0, 0, 1, 1, 0, 1]
-    bt = createBinaryTree(values)
-    print path_sum(bt)
-    printBinarySearchTree(bt)
-    print exist_path_sum(bt, 3)
-    print exist_path_sum(bt, 2)
-    print exist_path_sum(bt, 4)
-    print exist_path_sum(bt, 0)
-    printBinarySearchTree(bst)
-    print exist_path_sum(bst, 4)
-    print exist_path_sum(bst, 7)
-    print exist_path_sum(bst, 6)
-    tree = createBinarySearchTree([1, 2, 3, 4])
+    # print bst.left.left.val, bst.left.right.val
+    # print "LCA: ", lca(bst, bst.left.left, bst.left.right)[0].val
+    # print bst.left.val, bst.right.val
+    # print "LCA: ", lca(bst, bst.right, bst.left)[0].val
+    # print '=== Binary Tree ==='
+    # values = [0, 1, 0, 0, 1, 1, 0, 1]
+    # bt = createBinaryTree(values)
+    # print path_sum(bt)
+    # printBinarySearchTree(bt)
+    # print exist_path_sum(bt, 3)
+    # print exist_path_sum(bt, 2)
+    # print exist_path_sum(bt, 4)
+    # print exist_path_sum(bt, 0)
+    # printBinarySearchTree(bst)
+    # print exist_path_sum(bst, 4)
+    # print exist_path_sum(bst, 7)
+    # print exist_path_sum(bst, 6)
+    # tree = createBinarySearchTree([1, 2, 3, 4])
+    # printBinarySearchTree(tree)
+    # tree.left.size = 1
+    # tree.right.right.size = 1
+    # tree.right.size = 2
+    # tree.size = 1 + tree.left.size + tree.right.size
+    # print _find_kth(tree, 4)
+    # printBinarySearchTree(bst)
+    # in_order_s(bst)
+    # print
+    # pre_order_i(bst)
+    # print
+    # pre_order_i_2(bst)
+    # print "post"
+    # post_order_r(bst)
+    # print
+    # post_order(bst)
+    # print "Compute Successor"
+    # printBinarySearchTree(bst)
+    # print nxt(bst)
+    # print nxt(bst.left)
+    # print nxt(bst.left.left)
+    # print nxt(bst.left.right)
+    # print "Connect Leaves"
+    # conn_leaves_w(bst)
+    result = []
     printBinarySearchTree(tree)
-    tree.left.size = 1
-    tree.right.right.size = 1
-    tree.right.size = 2
-    tree.size = 1 + tree.left.size + tree.right.size
-    print _find_kth(tree, 4)
-    printBinarySearchTree(bst)
-    in_order_s(bst)
-    print
-    pre_order_i(bst)
-    print
-    pre_order_i_2(bst)
-    print "post"
-    post_order_r(bst)
-    print
-    post_order(bst)
-    print "Compute Successor"
-    printBinarySearchTree(bst)
-    print nxt(bst)
-    print nxt(bst.left)
-    print nxt(bst.left.left)
-    print nxt(bst.left.right)
-    print "Connect Leaves"
-    conn_leaves_w(bst)
+    right_side(tree, result)
+    print result
