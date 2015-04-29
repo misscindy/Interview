@@ -88,8 +88,6 @@ def quick_select(a, k):
     return lo, a[lo]
 
 
-
-
 if __name__ == "__main__":
     test_cases = [
         ([3, 2, 1, 3], sorted([3, 2, 1, 3])),

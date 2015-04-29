@@ -1,4 +1,4 @@
-#
+
 # def unique(arr):
 #     if len(arr) < 2:
 #         return arr
@@ -18,6 +18,8 @@
 #                 i = j
 #                 head += 1
 #     return head - 1
+
+
 def unique(arr):
     if len(arr) < 2:
         return
